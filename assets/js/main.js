@@ -1,6 +1,29 @@
+let clic = 0;
+
+let genderAffichage = (type, categ) => {
+    $(`#${type}-${categ}`).click(function() {
+        $(`.gender-${categ}`).removeClass('active');
+        $(this).addClass('active');
+
+        $(`.featured-${categ}`).hide();
+
+        if (type == 'all') {
+            $(`.featured-${categ}`).show();
+            clic++
+        } else {
+            $(`.${type}-${categ}`).show();
+        }
+    });
+};
+
+genderAffichage('all', 'series');
+genderAffichage('action', 'series');
+genderAffichage('comed', 'series');
+genderAffichage('autres', 'series');
+
+
 let moreAffichage = (classe) => {
     let tableau = $(`.${classe}`).length;
-    let compteur = 0;
 
     for (let i=12;i<tableau;i++) {
         $(`.${classe}`).eq(i).hide();
@@ -11,12 +34,12 @@ let moreAffichage = (classe) => {
             $(`.${classe}`).eq(i).toggle();
         }
 
-        if (compteur%2 == 0) {
+        if (clic%2 == 0) {
             $(this).text('Moins de films');
         } else {
             $(this).text('Plus de films');
         }
-        compteur++;
+        clic++;
     })
 }
 

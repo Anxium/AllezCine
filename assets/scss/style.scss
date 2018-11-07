@@ -8,6 +8,15 @@
     transform: translateX(-150px);
 }
 
+.card {
+    border: none!important;
+    display: flex;
+    align-items: center;
+    .card-title {
+        font-size: 16px;
+    }
+}
+
 .section-film {
     border: 1px solid rgba(128, 128, 128, 0.3);
     border-radius: 5px;
@@ -18,6 +27,9 @@
     }
     .card-body {
         position: relative;
+        .card-title {
+            margin-bottom: 25px;;
+        }
         .card-text {
             position: absolute;
             bottom: 16px;
@@ -32,19 +44,37 @@
 }
 
 .section-features {
-
+    padding: 15px 15px 0 15px;
     img {
         height: 236px;
         width: 160px;
     }
-}
-
-.card {
-    border: none!important;
-    display: flex;
-    align-items: center;
-    .card-title {
-        font-size: 16px;
+    .card-body {
+        position: relative;
+        .card-title {
+            margin-bottom: 25px;;
+        }
+        .card-text {
+            position: absolute;
+            bottom: 16px;
+        }
+        .genre {
+            right: 2px;
+        }
+        .annee {
+            left: 2px;
+        }
     }
 }
 
+.gender {
+    button {
+        margin: 0 4px 4px 4px;
+        padding: 8px 20px;
+        border: none;
+    }
+    .active {
+        background: $main-color;
+        color: $white-color;
+    }
+}
