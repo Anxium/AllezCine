@@ -156,8 +156,8 @@ form.example::after {
   clear: both;
   display: table; }
 
-input.barre {
-  color: white; }
+input.recherche {
+  color: white !important; }
 
 #gdpr-box {
   display: block;
