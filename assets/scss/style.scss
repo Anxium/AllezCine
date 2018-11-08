@@ -2,16 +2,17 @@
 @import '_color.scss';
 
 .secondTitle {
-    padding-left: 14px;
+    padding: 4px 0 4px 16px;
     border-left: 5px solid $main-color;
     margin: 10px 0;
-    transform: translateX(-150px);
+    transform: translateX(-100px);
 }
 
 .card {
     border: none!important;
     display: flex;
     align-items: center;
+    padding: 0!important;
     .card-title {
         font-size: 16px;
     }
@@ -20,34 +21,26 @@
 .section-film {
     border: 1px solid rgba(128, 128, 128, 0.3);
     border-radius: 5px;
-    padding: 15px 15px 0 15px;
-    img {
-        height: 236px;
-        width: 160px;
-    }
-    .card-body {
-        position: relative;
-        .card-title {
-            margin-bottom: 25px;;
-        }
-        .card-text {
-            position: absolute;
-            bottom: 16px;
-        }
-        .genre {
-            right: 2px;
-        }
-        .annee {
-            left: 2px;
-        }
-    }
 }
 
+.section-film,
 .section-features {
     padding: 15px 15px 0 15px;
+    .gender {
+        button {
+            margin: 0 4px 4px 4px;
+            padding: 8px 28px;
+            border: none;
+        }
+        .active {
+            background: $main-color;
+            color: $white-color;
+        }
+    }
     img {
+        display: block;
+        width: 95%;
         height: 236px;
-        width: 160px;
     }
     .card-body {
         position: relative;
@@ -64,17 +57,5 @@
         .annee {
             left: 2px;
         }
-    }
-}
-
-.gender {
-    button {
-        margin: 0 4px 4px 4px;
-        padding: 8px 20px;
-        border: none;
-    }
-    .active {
-        background: $main-color;
-        color: $white-color;
     }
 }
