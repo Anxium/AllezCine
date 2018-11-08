@@ -16,10 +16,16 @@ let genderAffichage = (type, categ) => {
     });
 };
 
+// Séries
 genderAffichage('all', 'series');
 genderAffichage('action', 'series');
 genderAffichage('comed', 'series');
 genderAffichage('autres', 'series');
+// Films
+genderAffichage('all', 'films');
+genderAffichage('action', 'films');
+genderAffichage('comed', 'films');
+genderAffichage('autres', 'films');
 
 
 let moreAffichage = (classe) => {
