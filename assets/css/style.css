@@ -28,6 +28,8 @@ ol.carousel-indicators {
   margin-bottom: 10%; }
 
 .navbartop {
+  position: absolute;
+  top: 0px;
   background: transparent;
   margin-top: 1%;
   display: flex !important;
@@ -164,7 +166,7 @@ input.recherche {
   width: 100%;
   background: #e72222;
   color: #fff;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   z-index: 999;
   display: flex;
@@ -211,9 +213,12 @@ input.recherche {
   background: #ff0000; }
 
 @media screen and (max-width: 1500px) {
-  .navbartop .navright {
-    justify-content: space-between;
-    padding-left: 0px; }
+  .navbartop {
+    padding-top: 0 !important;
+    margin-top: 0; }
+    .navbartop .navright {
+      justify-content: space-between;
+      padding-left: 0px; }
   a.contact {
     margin-left: 0px; } }
 
@@ -221,4 +226,4 @@ input.recherche {
   p.sous-titre {
     font-size: 2em; }
   div.coucou {
-    margin-top: 300px; } }
+    margin-top: 0px; } }
