@@ -59,3 +59,18 @@
         }
     }
 }
+
+@media screen and (max-width: 992px) {
+    .secondTitle {
+        transform: translateX(0);
+    }
+
+    .section-film,
+    .section-features {
+        img {
+            display: block;
+            width: 80%;
+            height: inherit;
+        }
+    }
+}

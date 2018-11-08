@@ -88,3 +88,14 @@ table {
     .section-film .card-body .annee,
     .section-features .card-body .annee {
       left: 2px; }
+
+@media screen and (max-width: 992px) {
+  .secondTitle {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0); }
+  .section-film img,
+  .section-features img {
+    display: block;
+    width: 80%;
+    height: inherit; } }
