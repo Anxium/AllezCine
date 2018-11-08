@@ -1,3 +1,11 @@
+$('#age-oui').click(function() {
+    $('#popup-age').hide();
+});
+
+$('#age-non').click(function() {
+    document.location.href="https://www.imdb.com/";
+});
+
 let clic = 0;
 
 let genderAffichage = (type, categ) => {
