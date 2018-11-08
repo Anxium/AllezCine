@@ -119,7 +119,7 @@ a.bouton-trailer {
   color: white !important; }
 
 a.contact {
-  margin-left: 100px !important; }
+  margin-left: 100px; }
 
 /* Style the search field */
 form.example input[type=text] {
@@ -168,7 +168,9 @@ input.barre {
   bottom: 0;
   z-index: 999;
   display: flex;
-  margin-top: 5px; }
+  margin-top: 5px;
+  padding: 0;
+  margin-left: -15px; }
 
 #gdpr-box p {
   padding: 8px 8px 8px;
@@ -207,3 +209,16 @@ input.barre {
 #gdpr-box button.gdpr-button-accept:hover,
 #gdpr-box a.gdpr-button-settings:hover {
   background: #ff0000; }
+
+@media screen and (max-width: 1500px) {
+  .navbartop .navright {
+    justify-content: space-between;
+    padding-left: 0px; }
+  a.contact {
+    margin-left: 0px; } }
+
+@media screen and (max-width: 990px) {
+  p.sous-titre {
+    font-size: 2em; }
+  div.coucou {
+    margin-top: 300px; } }
