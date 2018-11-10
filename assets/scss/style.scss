@@ -136,8 +136,13 @@
 }
 
 @media screen and (max-width: 992px) {
+    .social-link {
+        display: none;
+    }
+    
     .secondTitle {
         transform: translateX(0);
+        margin-left: 10px;
     }
 
     .section-film,

@@ -178,10 +178,13 @@ table {
       left: 2px; }
 
 @media screen and (max-width: 992px) {
+  .social-link {
+    display: none; }
   .secondTitle {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
-    transform: translateX(0); }
+    transform: translateX(0);
+    margin-left: 10px; }
   .section-film img,
   .section-features img {
     display: block;
