@@ -31,6 +31,51 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.social-link {
+  position: fixed;
+  top: 25%;
+  z-index: 10; }
+  .social-link .twitter {
+    background: #1DA1F3; }
+  .social-link .facebook {
+    background: #3b5998; }
+  .social-link .googlep {
+    background: #DD4B3F; }
+  .social-link a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    width: 140px;
+    margin-bottom: 12px;
+    padding: 10px 8px;
+    border-radius: 0 100px 100px 0;
+    color: #fff;
+    -webkit-transform: translateX(-90px);
+    -ms-transform: translateX(-90px);
+    transform: translateX(-90px);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    .social-link a p {
+      margin: 0; }
+    .social-link a .ico {
+      position: absolute;
+      right: 10px;
+      padding: 8px;
+      background: #fff;
+      border-radius: 100px;
+      color: #000; }
+  .social-link a:hover {
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+    text-decoration: none;
+    color: #fff; }
+
 #popup-age {
   background: rgba(0, 0, 0, 0.9);
   position: fixed;
@@ -40,8 +85,8 @@ table {
   -webkit-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
