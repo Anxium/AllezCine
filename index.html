@@ -17,15 +17,15 @@
   <!-- Section "Popup âge" -->
   <div id="popup-age">
     <div class="question-age">
-        <p class="text-center mb-4">Avez-vous plus de 18 ans?</p>
-        <div class="btn-age d-flex justify-content-around w-100">
-          <button id="age-oui">Oui</button>
-          <button id="age-non">Non</button>
-        </div>
+      <p class="text-center mb-4">Avez-vous plus de 18 ans?</p>
+      <div class="btn-age d-flex justify-content-around w-100">
+        <button id="age-oui">Oui</button>
+        <button id="age-non">Non</button>
+      </div>
     </div>
   </div>
 
-  <!-- Section "Réseaux sociux" -->
+  <!-- Section "Réseaux sociaux" -->
   <div class="social-link">
     <a href="#" class="twitter">
       <p>Twitter</p>
@@ -36,8 +36,8 @@
       <i class="fab fa-facebook ico"></i>
     </a>
     <a href="#" class="googlep">
-        <p>Google +</p>
-        <i class="fab fa-google-plus-g ico"></i>
+      <p>Google +</p>
+      <i class="fab fa-google-plus-g ico"></i>
     </a>
   </div>
 
@@ -49,7 +49,7 @@
         <img class="card-img-top" src="assets/img/citizensoldier.jpeg" alt="Affiche" type="button" data-toggle="modal"
           data-target="#modal-citizen">
         <div class="card-body">
-          <h5 class="card-title text-center font-weight-bold" data-toggle="modal" data-target="#modal-batman">Citizen
+          <h5 class="card-title text-center font-weight-bold" data-toggle="modal" data-target="#modal-citizen">Citizen
             Soldier</h5>
           <div class="d-flex justify-content-between">
             <p class="card-text annee m-0">2016</p>
@@ -87,7 +87,7 @@
         <img class="card-img-top" src="assets/img/pulpfiction.jpg" alt="Affiche" type="button" data-toggle="modal"
           data-target="#modal-pulp">
         <div class="card-body">
-          <h5 class="card-title text-center font-weight-bold" data-toggle="modal" data-target="#modal-batman">Pulp
+          <h5 class="card-title text-center font-weight-bold" data-toggle="modal" data-target="#modal-pulp">Pulp
             Fiction</h5>
           <div class="d-flex justify-content-between">
             <p class="card-text annee m-0">1994</p>
@@ -252,10 +252,12 @@
   </section>
 
   <!-- Section "Features Film" -->
-  <section class="container section-features">
+  <div class="container">
     <div class="row">
       <h2 class="secondTitle mb-4">Featured Films</h2>
     </div>
+  </div>
+  <section class="container section-features">
     <!-- bouton de tri-->
     <div class="row mt-2 mb-3 gender">
       <button type="button" id="all-films" class="bouton gender-films active">Tout</button>
@@ -426,10 +428,12 @@
   </section>
 
   <!-- Section "Features Séries" -->
-  <section class="container mb-5 mt-3 section-features">
+  <div class="container">
     <div class="row">
       <h2 class="secondTitle mb-4">Featured Series</h2>
     </div>
+  </div>
+  <section class="container mb-5 mt-3 section-features">
     <div class="row mt-2 mb-3 gender">
       <button type="button" id="all-series" class="bouton gender-series active">Tout</button>
       <button type="button" id="action-series" class="bouton gender-series">Action</button>
@@ -595,6 +599,197 @@
     <!-- bouton -->
     <div class="row my-2 d-flex justify-content-center">
       <button type="button" class="btn btn-primary" id="more-featured-series">Plus de films</button>
+    </div>
+  </section>
+
+  <!-- Section "Shop Movies" -->
+  <div class="container">
+    <div class="row">
+      <h2 class="secondTitle mb-4">Shop Movies</h2>
+    </div>
+  </div>
+  <section class="container-fluid mb-5 mt-3 section-shop">
+    <div class="shop-div-fleche row mb-2 mr-4 d-flex justify-content-end">
+      <span class="shop-fleche" id="flechegauche"><</span>
+      <span class="shop-fleche" id="flechedroite">></span>
+    </div>
+    <div class="row">
+      <div class="shop-left col-lg-7 d-flex justify-content-center">
+        <!-- carte -->
+        <div class="card col-12 col-md-3 col-lg-3">
+          <img class="card-img-top" src="assets/img/lego-batman-movie-8.jpg" alt="Affiche">
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">Batman Lego</h5>
+            <div class="d-flex justify-content-between">
+              <p class="card-text annee m-0">2017</p>
+              <p class="card-text genre m-0">Comédie</p>
+            </div>
+          </div>
+        </div>
+        <!-- carte -->
+        <div class="card col-12 col-md-3 col-lg-3">
+          <img class="card-img-top" src="assets/img/lego-batman-movie-8.jpg" alt="Affiche">
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">Batman Lego</h5>
+            <div class="d-flex justify-content-between">
+              <p class="card-text annee m-0">2017</p>
+              <p class="card-text genre m-0">Action</p>
+            </div>
+          </div>
+        </div>
+        <!-- carte -->
+        <div class="card col-12 col-md-3 col-lg-3">
+          <img class="card-img-top" src="assets/img/lego-batman-movie-8.jpg" alt="Affiche">
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">Batman Lego</h5>
+            <div class="d-flex justify-content-between">
+              <p class="card-text annee m-0">2017</p>
+              <p class="card-text genre m-0">Comédie</p>
+            </div>
+          </div>
+        </div>
+        <!-- carte -->
+        <div class="card col-12 col-md-3 col-lg-3">
+          <img class="card-img-top" src="assets/img/lego-batman-movie-8.jpg" alt="Affiche">
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">Batman Lego</h5>
+            <div class="d-flex justify-content-between">
+              <p class="card-text annee m-0">2017</p>
+              <p class="card-text genre m-0">Comédie</p>
+            </div>
+          </div>
+        </div>
+        <!-- carte -->
+        <div class="card col-12 col-md-3 col-lg-3">
+          <img class="card-img-top" src="assets/img/lego-batman-movie-8.jpg" alt="Affiche">
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">Batman Lego</h5>
+            <div class="d-flex justify-content-between">
+              <p class="card-text annee m-0">2017</p>
+              <p class="card-text genre m-0">Comédie</p>
+            </div>
+          </div>
+        </div>
+        <!-- carte -->
+        <div class="card col-12 col-md-3 col-lg-3">
+          <img class="card-img-top" src="assets/img/lego-batman-movie-8.jpg" alt="Affiche">
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">Batman Lego</h5>
+            <div class="d-flex justify-content-between">
+              <p class="card-text annee m-0">2017</p>
+              <p class="card-text genre m-0">Comédie</p>
+            </div>
+          </div>
+        </div>
+        <!-- carte -->
+        <div class="card col-12 col-md-3 col-lg-3">
+          <img class="card-img-top" src="assets/img/lego-batman-movie-8.jpg" alt="Affiche">
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">Batman Lego</h5>
+            <div class="d-flex justify-content-between">
+              <p class="card-text annee m-0">2017</p>
+              <p class="card-text genre m-0">Action</p>
+            </div>
+          </div>
+        </div>
+        <!-- carte -->
+        <div class="card col-12 col-md-3 col-lg-3">
+          <img class="card-img-top" src="assets/img/lego-batman-movie-8.jpg" alt="Affiche">
+          <div class="card-body">
+            <h5 class="card-title text-center font-weight-bold">Batman Lego</h5>
+            <div class="d-flex justify-content-between">
+              <p class="card-text annee m-0">2017</p>
+              <p class="card-text genre m-0">Comédie</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="shop-right d-flex col-lg-5 col-md-12">
+        <div class="shop-preview col-lg-12">
+          <div class="shop-video col-lg-12">
+            <iframe src="https://www.youtube.com/embed/V_5qcSZBvYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="shop-body col-lg-12">
+            <div class="shop-title">
+              <h3 class="py-3">STORKS 1</h3>
+            </div>
+            <div class="shop-content d-flex">
+              <h4 class="shop-subtitle">Story line <span class="twop">:</span></h4>
+              <p class="shop-text">fdgqdg</p>
+            </div>
+            <div class="shop-content d-flex">
+              <h4 class="shop-subtitle">Release On <span class="twop">:</span></h4>
+              <p class="shop-text">Aug 1, 2016</p>
+            </div>
+            <div class="shop-content d-flex">
+              <h4 class="shop-subtitle">Genres <span class="twop">:</span></h4>
+              <p class="shop-text">Drama | Adventure | Family</p>
+            </div>
+            <div class="shop-content d-flex">
+              <h4 class="shop-subtitle">Price <span class="twop">:</span></h4>
+              <p class="shop-text">18€</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-preview col-lg-12">
+          <div class="shop-video col-lg-12">
+            <iframe src="https://www.youtube.com/embed/V_5qcSZBvYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="shop-body col-lg-12">
+            <div class="shop-title">
+              <h3 class="py-3">STORKS 2</h3>
+            </div>
+            <div class="shop-content d-flex">
+              <h4 class="shop-subtitle">Story line <span class="twop">:</span></h4>
+              <p class="shop-text">fdgqdg</p>
+            </div>
+            <div class="shop-content d-flex">
+              <h4 class="shop-subtitle">Release On <span class="twop">:</span></h4>
+              <p class="shop-text">Aug 1, 2016</p>
+            </div>
+            <div class="shop-content d-flex">
+              <h4 class="shop-subtitle">Genres <span class="twop">:</span></h4>
+              <p class="shop-text">Drama | Adventure | Family</p>
+            </div>
+            <div class="shop-content d-flex">
+              <h4 class="shop-subtitle">Price <span class="twop">:</span></h4>
+              <p class="shop-text">18€</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-preview col-lg-12">
+          <div class="shop-video col-lg-12">
+            <iframe src="https://www.youtube.com/embed/V_5qcSZBvYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="shop-body col-lg-12">
+            <div class="shop-title">
+              <h3 class="py-3">STORKS 3</h3>
+            </div>
+            <div class="shop-content d-flex">
+              <h4 class="shop-subtitle">Story line <span class="twop">:</span></h4>
+              <p class="shop-text">fdgqdg</p>
+            </div>
+            <div class="shop-content d-flex">
+              <h4 class="shop-subtitle">Release On <span class="twop">:</span></h4>
+              <p class="shop-text">Aug 1, 2016</p>
+            </div>
+            <div class="shop-content d-flex">
+              <h4 class="shop-subtitle">Genres <span class="twop">:</span></h4>
+              <p class="shop-text">Drama | Adventure | Family</p>
+            </div>
+            <div class="shop-content d-flex">
+              <h4 class="shop-subtitle">Price <span class="twop">:</span></h4>
+              <p class="shop-text">18€</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 

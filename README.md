@@ -9,11 +9,12 @@ https://github.com/becodeorg/CRL-Turing-2.6/tree/master/Projects/AllezCine
 * CSS3
 * Javascript (jQuery)
 * Bootstrap
+* Responsive design
 ## Responsive?
 Bien-sûr!
 ## Fonctionnalités
 ...
-### Contributeur
+## Contributeur
 * Baptiste Bourlet
 * Méroine El-Haddadi
 * Axel Avaux

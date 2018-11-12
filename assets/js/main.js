@@ -59,3 +59,36 @@ let moreAffichage = (classe) => {
 
 moreAffichage('featured-films');
 moreAffichage('featured-series');
+
+let slides = () => {
+    let element = $('.shop-preview');
+    let indexElem = element.length-1;
+    let i = 0;
+    let currentElem = element.eq(i);
+    
+    element.hide();
+    currentElem.show();
+    
+    $('#flechedroite').click(function() {
+        i++;
+        element.hide();
+        currentElem = element.eq(i);
+        currentElem.show();
+    
+        if (i == indexElem) {
+            i = -1;
+        }
+    })
+    
+    $('#flechegauche').click(function() {
+        i--;
+        element.hide();
+        currentElem = element.eq(i);
+        currentElem.show();
+        
+        if (i == -1) {
+            i = indexElem;
+        }
+    })
+}
+slides();
