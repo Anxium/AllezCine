@@ -1,0 +1,478 @@
+#hero {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}
+#carousel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+}
+.carousel-item {
+    background: no-repeat center/cover;
+}
+
+a.redd {
+    color: red!important;
+    margin-right: 50px;
+}
+
+li{
+    .carred {
+        background-color: red;
+    }
+    
+}
+ol.carousel-indicators {
+    margin-bottom: 10%;
+}
+
+.navbartop{
+    position: absolute;
+    top: 0px;
+    background:transparent;
+    margin-top:1%;
+    display:flex!important;
+    text-transform: uppercase;
+    font-size:12px;
+    .navright{
+        justify-content:space-between;
+        padding-left:300px;
+    }
+
+    a{
+    color:#fff;
+    }
+    
+    .navbar-toggler{
+        background-color:#000;
+        opacity:0.8;
+        border-radius:0;
+        display:flex;
+        flex-direction:column;
+        margin-right:10px;
+        
+    
+        .navbar-toggler-icon{
+            color:#fff;
+            background-color:#fe4240;
+            height:3px;
+            margin:3px;
+        }
+    }
+    
+    .logo{
+        font-weight:bold;
+        font-size:40px;
+        font-family: 'Roboto', sans-serif;
+        .redlogo{
+            color:#fe4240;
+        }
+    }
+    
+    .genre{
+        background-color:#fe4240;
+        color:#fff!important;
+        margin-right:5px;
+        
+    }
+    .section{
+        color:#fff!important;
+        margin-right:5px;
+        position:relative;
+    }
+    
+    .boxsection{
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-right:5px;
+    }
+    
+    
+    .dropdown-menu{
+        background-color:#fff;
+        border-radius:0;
+        
+        .dropdown-item{
+            font-size:12px;
+            color:#000!important;
+    
+            &:hover{
+                color:#fff!important;
+                background-color:#fe4240;
+            }
+        }
+    }
+    
+    .search{
+        position:relative;
+    
+        .fa-search{
+            color:#fff!important;
+            position:absolute;
+        }
+    
+        .fa{
+            right:8%;
+        }
+    
+        .formborder{
+            border-radius:30px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border:none;
+            height:30px;
+            
+        }
+    
+        input::placeholder{
+            color:#fff;
+        }
+        .btn{
+            border-radius:30px;
+        }
+    }
+    }
+    span.red {
+        color:#fe4240;
+    }
+p.sous-titre {
+        color: whitesmoke;
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+    }
+    
+p.bas-sous-T {
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+div.coucou {
+    margin-top: 200px;
+}
+div.carousel-item {
+    filter: brightness(50%);
+}
+
+a.bouton-trailer {
+    background: #ff0000;
+    color: white!important;
+    }
+a.contact {
+    margin-left: 100px;
+    }
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: black;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 5%;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 10px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+  }
+  
+  form.example button:hover {
+    background: rgb(75, 73, 73);
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  input.recherche {
+      color: white!important;
+  }
+
+
+  #gdpr-box {
+    display: block;
+    width: 100%;
+    background: rgb(231, 34, 34);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+    display: flex;
+    margin-top: 5px;
+    padding: 0;
+    margin-left: -15px;
+    }
+    #gdpr-box p {
+    padding: 8px 8px 8px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 0;
+    }
+    #gdpr-box a {
+    color: #fff;
+    }
+    #gdpr-box button.gdpr-button-accept {
+    background: none;
+    color: #fff;
+    font-size: 12px;
+    }
+    #gdpr-box button.gdpr-button-accept,
+    #gdpr-box a.gdpr-button-settings {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px 5px 4px;
+    text-decoration: none;
+    margin: 0 0 20px 20px;
+    border-radius: 2px;
+    font-weight: 800;
+    font-size: 12px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    margin-top: 10px;
+    width: 70px;
+    }
+    #gdpr-box button.gdpr-button-accept:hover {
+    cursor: pointer;
+    }
+    #gdpr-box button.gdpr-button-accept:hover,
+    #gdpr-box a.gdpr-button-settings:hover {
+    background: #ff0000;
+    }
+
+    
+    @media screen and (max-width: 1500px) {
+        .navbartop{
+            padding-top: 0!important;
+            margin-top: 0;
+            .navright{
+                justify-content:space-between;
+                padding-left:0px;
+            }
+        }
+        a.contact {
+            margin-left: 0px;
+        }
+      }
+
+    @media screen and (max-width: 992px) {
+        p.sous-titre {
+            font-size: 2em;
+        }
+        div.coucou {
+            margin-top: 0px;
+        }
+    }
+
+    //form login
+
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    
+    /* Set a style for all buttons */
+    button.bout-login {
+        color: #fff;
+        background: #ff0000;
+        display: inline-block;
+        border: 1px solid #fff;
+        padding: 5px 5px 4px;
+        text-decoration: none;
+        margin: 0 0 20px 20px;
+        border-radius: 2px;
+        font-weight: 800;
+        font-size: 12px;
+        margin-top: 10px;
+        width: 70px;
+    }
+    
+    button.bout-login:hover {
+        opacity: 0.8;
+    }
+    
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+        color: white;
+    }
+    
+    /* Center the image and position the close button */
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+        position: relative;
+    }
+    button.bout-login {
+        color: #fff;
+        background: #ff0000;
+        display: inline-block;
+        border: 1px solid #fff;
+        padding: 5px 5px 4px;
+        text-decoration: none;
+        margin: 0 0 20px 20px;
+        border-radius: 2px;
+        font-weight: 800;
+        font-size: 12px;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        margin-top: 10px;
+        width: 70px;
+    }
+    
+    .xd {
+        padding: 16px;
+    }
+    
+    span.psw {
+        float: right;
+        padding-top: 16px;
+    }
+    
+    /* The Modal (background) */
+    .log {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        padding-top: 60px;
+    }
+    
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+    }
+    
+    /* The Close Button (x) */
+    .close {
+        position: absolute;
+        right: 25px;
+        top: 0;
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: red;
+        cursor: pointer;
+    }
+    
+    /* Add Zoom Animation */
+    .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s
+    }
+    
+    @-webkit-keyframes animatezoom {
+        from {-webkit-transform: scale(0)} 
+        to {-webkit-transform: scale(1)}
+    }
+        
+    @keyframes animatezoom {
+        from {transform: scale(0)} 
+        to {transform: scale(1)}
+    }
+    
+    /* Change styles for span and cancel button on extra small screens */
+    @media screen and (max-width: 300px) {
+        span.psw {
+           display: block;
+           float: none;
+        }
+        .cancelbtn {
+           width: 100%;
+        }
+    }
+
+// cookie
+div.dimcook {
+    display: flex;
+    justify-content: center;
+}
+
+div.butcook {
+    display: flex;
+    justify-content: center;
+    
+}
+button.boutcook {
+    border: solid 2px #fff;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+p.textcook {
+    font-size: 2em;
+    font-weight: bold;
+
+}
+#cookie {
+	position:absolute;
+	background-color:rgb(196, 1, 1); color:rgb(236, 243, 236);
+	border:5px solid rgb(17, 11, 11);
+    padding:1em;
+    z-index: 1000;
+}
+
+.cookie {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
