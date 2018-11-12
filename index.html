@@ -19,76 +19,88 @@
 
 </head>
 <body>
+
+<div class="map">
+<iframe class="map" src="https://www.google.com/maps/embed/v1/place?q=Quai10,+Quai+Arthur+Rimbaud,+Charleroi,+Belgique&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" width="500" height="400" frameborder="0" style="padding: 10px; margin-left: auto; margin-right: auto" allowfullscreen></iframe>
+</div>
+  
 <section>
-<p style=" border-left: 5px solid red;
+<p style=" border-left: 5px solid #fe4240;
 margin: 10px 0; margin-left: 30px; padding-left: 6px; font-size: 30px;"> CONTACT US</p>
 
-<div class="col-md-8 col-xl-9">
-        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-            <!--Grid row-->
-            <div class="row">
+<div class="col-md-8 col-xl-9"  style="width:70%; margin-left:auto; margin-right: auto; ">
+  <form id="contact-form" style="padding:10px;" name="contact-form" action="mail.php" method="POST">
 
-                <!--Grid column-->
-                <div class="col-md-6">
-                    <div class="md-form">
-                        <input type="text" id="name" name="name" class="form-control" placeholder="FIRST NAME">
-                    </div>
-                </div>
-                <!--Grid column-->
+      <div class="row">
 
-                <!--Grid column-->
-                <div class="col-md-6">
-                    <div class="md-form">
-                        <input type="text" id="name" name="name" class="form-control" placeholder="LAST NAME">
-                        <label for="email" class=""></label>
-                    </div>
-                </div>
-                <!--Grid column-->
+          <div class="col-md-6">
+              <div class="md-form">
+                  <input type="text" id="name" name="name" class="form-control" placeholder="FIRST NAME">
+                  <label for="email" class=""></label>
 
-            </div>
-            <!--Grid row-->
-            <div class="row">
-            <div class="col-md-6">
-                    <div class="md-form">
-                        <input type="text" id="email" name="email" class="form-control" placeholder="EMAIL">
-                        <label for="email" class=""></label>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                        <div class="md-form">
-                            <input type="text" id="SUBJECT" name="SUBJECT" class="form-control" placeholder="SUBJECT">
-                            <label for="email" class=""></label>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="md-form">
-                          <input type="text" id="message" name="message" class="form-control" placeholder="Your message">
-                          <label for="email" class=""></label>
-                      </div>
+              </div>
+          </div>
+
+          <div class="col-md-6">
+              <div class="md-form">
+                  <input type="text" id="name" name="name" class="form-control" placeholder="LAST NAME">
+                  <label for="email" class=""></label>
+              </div>
+          </div>
+
+      </div>
+      <div class="row">
+      <div class="col-md-6">
+              <div class="md-form">
+                  <input type="text" id="email" name="email" class="form-control" placeholder="EMAIL">
+                  <label for="email" class=""></label>
+              </div>
+          </div>
+          <div class="col-md-6">
+                  <div class="md-form">
+                      <input type="text" id="SUBJECT" name="SUBJECT" class="form-control" placeholder="SUBJECT">
+                      <label for="email" class=""></label>
                   </div>
-                        
-        </form>
-        <div class="center-on-small-only">
-                <button style="background-color:#fe4240; border:none; margin-left: 5px; padding: 6px; color:white; cursor: pointer;" type="button">Send message</button>
+              </div>
+              <div class="col-md-12">
+                  <div class="form-group">
+                      <textarea class="form-control" rows="5" id="comment" placeholder="YOUR MESSAGE"></textarea>
+                    </div>
             </div>
-            <div class="status"></div>
-        </div>
-    </div>
+                  
+  </form>
+  <div class="center-on-small-only">
+          <button style="background-color:#fe4240; border:none;margin-left: 15px; padding: 6px; color:white; cursor: pointer;" type="button">SEND MESSAGE</button>
+      </div>
+      <div class="status"></div>
+  </div>
+</div>
 
 
-  <footer  class="page-footer font-small blue pt-4">
+
+
+
+
+
+
+
+
+
+
+
+  <footer  class="page-footer font-small blue pt-5">
 <div class="container-fluid">
     <h5 class="text-uppercase text-center"><span style="color:#fe4240;">Subscribe to us</span></h5>
-    <div class="input-group justify-content-center " >
+    <div class="input-group justify-content-center "   >
         
-            <input type="text" style="width:30%;"  placeholder="Enter your email">
+            <input type="text" style="width:30%;" id="email" name="email"  placeholder=" Enter your email">
               <button style="background-color:#fe4240; border:none; margin-left: 5px; padding: 5px; color:white; cursor: pointer;" type="button">Subscribe</button>
             </div>
           </div>
            <br>
 
-                <div class="row">
+                <div class="row" style="width:100%;">
                   <div class="col-1-5">
                         <h5  id="release"class="text-uppercase" style="line-height: 36px;">Release</h5>
                         <hr style=" border-color:#32332d; ">
@@ -160,21 +172,21 @@ margin: 10px 0; margin-left: 30px; padding-left: 6px; font-size: 30px;"> CONTACT
                         <img src="img/latestmovie.png" alt="..." style="width: 75px; margin:5px; float: left;" class="img">
                         <p style="color:#32332d;">Evenlet Ut Molesti </p>
                         <br><img src="img/latestmovie.png" alt="..." style="width: 75px; margin:5px; float: left;" class="img">
-                        <p style="color:#32332d;" >Evenlet Ut Molesti </p>
+                        <p style="color:#32332d;" >Earum Rerum Tenet </p>
                         <br><img src="img/latestmovie.png" alt="..." style="width: 75px; margin:5px; float: left;" class="img">
                         <p style="color:#32332d;" >Evenlet Ut Molesti </p>
                         <br><img src="img/latestmovie.png" alt="..." style="width: 75px; margin:5px; float: left;" class="img">
-                        <p style="color:#32332d; justify-content: center;" >Evenlet Ut Molesti </p>
+                        <p style="color:#32332d; justify-content: center;" >Earum Rerum Tenet </p>
 
 
 
 
                   </div>
                   <div class="col-1-5">
-                        <h5 style="font-size:30px;"class="text-uppercase"><span style="color:#fe4240;">Allez</span>Cine!</h5>
+                        <h5 style="font-size:30px; color:white;"class="text-uppercase"><span style="color:#fe4240;">Allez</span>Cine!</h5>
                         <hr style=" border-color:#32332d;">
-                        <br><img src="img/AllezCine!.png" alt="..." style="width: 270px;" class="img">
- 
+                        <img src="img/AllezCine!.png" alt="..." style="width:275px;" id="AllezCine">
+
                   </div>
                 </div>
               </div>
@@ -192,6 +204,30 @@ margin: 10px 0; margin-left: 30px; padding-left: 6px; font-size: 30px;"> CONTACT
               </div>
               <br>
 </footer>
+
+<a id="button"><i class="fa fa-arrow-up fleche" aria-hidden="true"></i>
+</a>
+
+  <script>
+  var btn = $('#button');
+  
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+  
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+  
+  
+  </script>
+
+
 
 
 </body>
