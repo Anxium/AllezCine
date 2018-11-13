@@ -15,6 +15,7 @@ Bien-sûr! (Quoique..?)
 ## Fonctionnalités
 ...
 ## Contributeur
-* Baptiste Bourlet
-* Méroine El-Haddadi
-* Axel Avaux
+- Baptiste Bourlet
+- Gary Petrovski
+- Axel Avaux
+- Méroine El-Haddadi
