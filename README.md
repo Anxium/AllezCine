@@ -11,7 +11,7 @@ https://github.com/becodeorg/CRL-Turing-2.6/tree/master/Projects/AllezCine
 * Bootstrap
 * Responsive design
 ## Responsive?
-Bien-sûr!
+Bien-sûr! (Quoique..?)
 ## Fonctionnalités
 ...
 ## Contributeur

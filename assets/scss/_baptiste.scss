@@ -262,7 +262,7 @@ form.example input[type=text] {
     }
     #gdpr-box button.gdpr-button-accept:hover,
     #gdpr-box a.gdpr-button-settings:hover {
-    background: #ff0000;
+    background: $second-color;
     }
 
     
@@ -303,7 +303,7 @@ form.example input[type=text] {
     /* Set a style for all buttons */
     button.bout-login {
         color: #fff;
-        background: #ff0000;
+        background: $second-color;
         display: inline-block;
         border: 1px solid #fff;
         padding: 5px 5px 4px;
@@ -336,7 +336,7 @@ form.example input[type=text] {
     }
     button.bout-login {
         color: #fff;
-        background: #ff0000;
+        background: $second-color;
         display: inline-block;
         border: 1px solid #fff;
         padding: 5px 5px 4px;
