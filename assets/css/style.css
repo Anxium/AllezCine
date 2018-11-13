@@ -685,6 +685,11 @@ p.textcook {
 .section-features,
 .section-shop {
   padding: 15px 15px 0 15px; }
+  .section-film .featured-more,
+  .section-features .featured-more,
+  .section-shop .featured-more {
+    background: #fe4240;
+    color: #fff; }
   .section-film .gender button,
   .section-features .gender button,
   .section-shop .gender button {

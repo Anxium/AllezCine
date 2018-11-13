@@ -28,11 +28,13 @@ let genderAffichage = (type, categ) => {
 genderAffichage('all', 'series');
 genderAffichage('action', 'series');
 genderAffichage('comed', 'series');
+genderAffichage('drame', 'series');
 genderAffichage('autres', 'series');
 // Films
 genderAffichage('all', 'films');
 genderAffichage('action', 'films');
 genderAffichage('comed', 'films');
+genderAffichage('thriller', 'films');
 genderAffichage('autres', 'films');
 
 

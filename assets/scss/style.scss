@@ -105,6 +105,10 @@
 .section-features,
 .section-shop {
     padding: 15px 15px 0 15px;
+    .featured-more {
+        background: $main-color;
+        color: #fff;
+    }
     .gender {
         button {
             margin: 0 4px 4px 4px;
