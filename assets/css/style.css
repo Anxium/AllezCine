@@ -750,40 +750,49 @@ p.textcook {
   -webkit-box-direction: normal;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap; }
-  .section-shop .shop-right .shop-preview {
-    border-radius: 4px; }
-    .section-shop .shop-right .shop-preview .shop-video {
-      height: 60%;
-      padding: 0; }
-      .section-shop .shop-right .shop-preview .shop-video iframe {
-        height: 100%;
-        width: 100%; }
-    .section-shop .shop-right .shop-preview .shop-body {
-      background: #0d0d0d;
-      color: #fe4240;
-      height: 40%;
-      border-radius: 0 0 5px 5px; }
-      .section-shop .shop-right .shop-preview .shop-body .shop-content {
-        margin-bottom: 10px;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center; }
-        .section-shop .shop-right .shop-preview .shop-body .shop-content h4 {
-          margin: 0; }
-          .section-shop .shop-right .shop-preview .shop-body .shop-content h4 .twop {
-            margin: 0 10px; }
-        .section-shop .shop-right .shop-preview .shop-body .shop-content p {
-          margin: 0;
-          color: #dfdbdb; }
+  .section-shop .shop-right .shop-preview .shop-video {
+    height: 60%;
+    padding: 0; }
+    .section-shop .shop-right .shop-preview .shop-video iframe {
+      height: 100%;
+      width: 100%; }
+  .section-shop .shop-right .shop-preview .shop-body {
+    background: #0d0d0d;
+    color: #fe4240;
+    height: 40%;
+    border-radius: 0 0 5px 5px; }
+    .section-shop .shop-right .shop-preview .shop-body .shop-content {
+      margin-bottom: 10px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .section-shop .shop-right .shop-preview .shop-body .shop-content h4 {
+        margin: 0; }
+        .section-shop .shop-right .shop-preview .shop-body .shop-content h4 .twop {
+          margin: 0 10px; }
+      .section-shop .shop-right .shop-preview .shop-body .shop-content p {
+        margin: 0;
+        color: #dfdbdb; }
 
-@media screen and (max-width: 992px) {
-  .social-link {
-    display: none; }
+#arrow-up {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 998;
+  padding: 6px 10px;
+  border: 2px solid #000;
+  border-radius: 100px; }
+
+@media screen and (max-width: 1500px) {
   .secondTitle {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
-    margin-left: 10px; }
+    margin-left: 10px; } }
+
+@media screen and (max-width: 992px) {
+  .social-link {
+    display: none; }
   .section-film .gender,
   .section-features .gender,
   .section-shop .gender {
@@ -798,8 +807,7 @@ p.textcook {
   .section-features img,
   .section-shop img {
     display: block;
-    width: 80%;
-    height: inherit; }
+    width: 80%; }
   .section-film .shop-left img,
   .section-features .shop-left img,
   .section-shop .shop-left img {

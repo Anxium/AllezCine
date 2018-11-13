@@ -93,7 +93,18 @@ let slides = () => {
 }
 slides();
 
+$('#arrow-up').hide();
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 250) {
+    $('#arrow-up').show();
+  } else {
+    $('#arrow-up').hide();
+  }
+});
 
+$('#arrow-up').click(function() {
+  $('html, body').animate({scrollTop:0}, 'slow');
+})
 
 
 // JS Baptiste
@@ -136,3 +147,5 @@ function toggle(cookie)
 $('#boutcook').click(function() {
   $('#cookie').hide(1000);
 });
+
+
