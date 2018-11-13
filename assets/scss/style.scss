@@ -139,6 +139,7 @@
     }
 }
 
+
 .section-shop {
     .shop-fleche {
         font-weight: 700;
@@ -160,7 +161,7 @@
         display: flex;
         flex-flow: row wrap;
         .shop-preview {
-            border-radius: 5px;
+            
             .shop-video {
                 height: 60%;
                 padding: 0;
@@ -171,15 +172,16 @@
             }
             .shop-body {
                 background: #202020;
-                color: $main-color;
+                color: red;
                 height: 40%;
+                font-weight: bold;
                 .shop-content  {
                     margin-bottom: 10px;
                     align-items: center;
                     h4 {
                         margin: 0;
                         .twop {
-                            margin: 0 10px;
+                            margin: 0 50px;
                         }
                     }
                     p {
@@ -223,5 +225,14 @@
                 height: inherit;
             }
         }
+        .shop-right {
+            height: 900px;
+        }
+    }
+}
+@media screen and (max-width: 360px) {
+    
+    div.shop-right {
+        height: 1200px!important;
     }
 }
