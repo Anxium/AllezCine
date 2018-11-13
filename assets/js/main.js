@@ -70,12 +70,12 @@ let slides = () => {
     currentElem.show();
     
     $('#flechedroite').click(function() {
-        i++;
+        i++
         element.hide();
         currentElem = element.eq(i);
         currentElem.show();
     
-        if (i == indexElem) {
+        if (i >= indexElem) {
             i = -1;
         }
     })
@@ -86,7 +86,7 @@ let slides = () => {
         currentElem = element.eq(i);
         currentElem.show();
         
-        if (i == -1) {
+        if (i <= -1) {
             i = indexElem;
         }
     })

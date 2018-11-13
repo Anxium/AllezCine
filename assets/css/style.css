@@ -709,7 +709,8 @@ p.textcook {
     .section-film .card-body .card-title,
     .section-features .card-body .card-title,
     .section-shop .card-body .card-title {
-      margin-bottom: 25px; }
+      margin-bottom: 25px;
+      width: 150px; }
     .section-film .card-body .card-text,
     .section-features .card-body .card-text,
     .section-shop .card-body .card-text {
