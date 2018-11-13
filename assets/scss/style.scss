@@ -144,6 +144,7 @@
     }
 }
 
+
 .section-shop {
     .shop-fleche {
         font-weight: 700;
@@ -177,6 +178,7 @@
                 background: $second-color;
                 color: $main-color;
                 height: 40%;
+                font-weight: bold;
                 border-radius: 0 0 5px 5px;
                 .shop-content  {
                     margin-bottom: 10px;
@@ -184,7 +186,7 @@
                     h4 {
                         margin: 0;
                         .twop {
-                            margin: 0 10px;
+                            margin: 0 50px;
                         }
                     }
                     p {
@@ -239,5 +241,14 @@
                 height: inherit;
             }
         }
+        .shop-right {
+            height: 900px;
+        }
+    }
+}
+@media screen and (max-width: 360px) {
+    
+    div.shop-right {
+        height: 1200px!important;
     }
 }
