@@ -70,12 +70,12 @@ let slides = () => {
     currentElem.show();
     
     $('#flechedroite').click(function() {
-        i++;
+        i++
         element.hide();
         currentElem = element.eq(i);
         currentElem.show();
     
-        if (i == indexElem) {
+        if (i >= indexElem) {
             i = -1;
         }
     })
@@ -86,14 +86,25 @@ let slides = () => {
         currentElem = element.eq(i);
         currentElem.show();
         
-        if (i == -1) {
+        if (i <= -1) {
             i = indexElem;
         }
     })
 }
 slides();
 
+$('#arrow-up').hide();
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 250) {
+    $('#arrow-up').show();
+  } else {
+    $('#arrow-up').hide();
+  }
+});
 
+$('#arrow-up').click(function() {
+  $('html, body').animate({scrollTop:0}, 'slow');
+})
 
 
 // JS Baptiste
@@ -136,3 +147,5 @@ function toggle(cookie)
 $('#boutcook').click(function() {
   $('#cookie').hide(1000);
 });
+
+

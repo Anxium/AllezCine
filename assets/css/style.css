@@ -355,7 +355,7 @@ input.recherche {
 
 #gdpr-box button.gdpr-button-accept:hover,
 #gdpr-box a.gdpr-button-settings:hover {
-  background: #ff0000; }
+  background: #0d0d0d; }
 
 @media screen and (max-width: 1500px) {
   .navbartop {
@@ -387,7 +387,7 @@ input[type=text], input[type=password] {
 /* Set a style for all buttons */
 button.bout-login {
   color: #fff;
-  background: #ff0000;
+  background: #0d0d0d;
   display: inline-block;
   border: 1px solid #fff;
   padding: 5px 5px 4px;
@@ -417,7 +417,7 @@ button.bout-login:hover {
 
 button.bout-login {
   color: #fff;
-  background: #ff0000;
+  background: #0d0d0d;
   display: inline-block;
   border: 1px solid #fff;
   padding: 5px 5px 4px;
@@ -571,7 +571,7 @@ p.textcook {
 .social-link {
   position: fixed;
   top: 25%;
-  z-index: 10; }
+  z-index: 100; }
   .social-link .twitter {
     background: #1DA1F3; }
   .social-link .facebook {
@@ -649,16 +649,16 @@ p.textcook {
       background: rgba(0, 0, 0, 0.6);
       color: #fff;
       padding: 20px;
-      border: 4px solid #801515; }
+      border: 4px solid #fe4240; }
     #popup-age .question-age button {
       background: rgba(0, 0, 0, 0.6);
       color: #fff;
       padding: 10px 40px;
-      border: 4px solid #801515; }
+      border: 4px solid #fe4240; }
 
 .secondTitle {
   padding: 4px 0 4px 16px;
-  border-left: 5px solid #801515;
+  border-left: 5px solid #fe4240;
   margin: 10px 0;
   -webkit-transform: translateX(-100px);
   -ms-transform: translateX(-100px);
@@ -694,8 +694,8 @@ p.textcook {
   .section-film .gender .active,
   .section-features .gender .active,
   .section-shop .gender .active {
-    background: #801515;
-    color: #FFE8E8; }
+    background: #fe4240;
+    color: #f1eff0; }
   .section-film img,
   .section-features img,
   .section-shop img {
@@ -709,7 +709,8 @@ p.textcook {
     .section-film .card-body .card-title,
     .section-features .card-body .card-title,
     .section-shop .card-body .card-title {
-      margin-bottom: 25px; }
+      margin-bottom: 25px;
+      width: 150px; }
     .section-film .card-body .card-text,
     .section-features .card-body .card-text,
     .section-shop .card-body .card-text {
@@ -750,39 +751,49 @@ p.textcook {
   -webkit-box-direction: normal;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap; }
-  .section-shop .shop-right .shop-preview {
-    border-radius: 5px; }
-    .section-shop .shop-right .shop-preview .shop-video {
-      height: 60%;
-      padding: 0; }
-      .section-shop .shop-right .shop-preview .shop-video iframe {
-        height: 100%;
-        width: 100%; }
-    .section-shop .shop-right .shop-preview .shop-body {
-      background: #202020;
-      color: #801515;
-      height: 40%; }
-      .section-shop .shop-right .shop-preview .shop-body .shop-content {
-        margin-bottom: 10px;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center; }
-        .section-shop .shop-right .shop-preview .shop-body .shop-content h4 {
-          margin: 0; }
-          .section-shop .shop-right .shop-preview .shop-body .shop-content h4 .twop {
-            margin: 0 10px; }
-        .section-shop .shop-right .shop-preview .shop-body .shop-content p {
-          margin: 0;
-          color: #dfdbdb; }
+  .section-shop .shop-right .shop-preview .shop-video {
+    height: 60%;
+    padding: 0; }
+    .section-shop .shop-right .shop-preview .shop-video iframe {
+      height: 100%;
+      width: 100%; }
+  .section-shop .shop-right .shop-preview .shop-body {
+    background: #0d0d0d;
+    color: #fe4240;
+    height: 40%;
+    border-radius: 0 0 5px 5px; }
+    .section-shop .shop-right .shop-preview .shop-body .shop-content {
+      margin-bottom: 10px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .section-shop .shop-right .shop-preview .shop-body .shop-content h4 {
+        margin: 0; }
+        .section-shop .shop-right .shop-preview .shop-body .shop-content h4 .twop {
+          margin: 0 10px; }
+      .section-shop .shop-right .shop-preview .shop-body .shop-content p {
+        margin: 0;
+        color: #dfdbdb; }
 
-@media screen and (max-width: 992px) {
-  .social-link {
-    display: none; }
+#arrow-up {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 998;
+  padding: 6px 10px;
+  border: 2px solid #000;
+  border-radius: 100px; }
+
+@media screen and (max-width: 1500px) {
   .secondTitle {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
-    margin-left: 10px; }
+    margin-left: 10px; } }
+
+@media screen and (max-width: 992px) {
+  .social-link {
+    display: none; }
   .section-film .gender,
   .section-features .gender,
   .section-shop .gender {
@@ -797,8 +808,7 @@ p.textcook {
   .section-features img,
   .section-shop img {
     display: block;
-    width: 80%;
-    height: inherit; }
+    width: 80%; }
   .section-film .shop-left img,
   .section-features .shop-left img,
   .section-shop .shop-left img {

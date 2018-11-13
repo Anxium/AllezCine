@@ -6,7 +6,7 @@
 .social-link {
     position: fixed;
     top: 25%;
-    z-index: 10;
+    z-index: 100;
     .twitter {
         background: #1DA1F3;
     }
@@ -124,7 +124,8 @@
     .card-body {
         position: relative;
         .card-title {
-            margin-bottom: 25px;;
+            margin-bottom: 25px;
+            width: 150px;
         }
         .card-text {
             position: absolute;
@@ -160,7 +161,6 @@
         display: flex;
         flex-flow: row wrap;
         .shop-preview {
-            border-radius: 5px;
             .shop-video {
                 height: 60%;
                 padding: 0;
@@ -170,9 +170,10 @@
                 }
             }
             .shop-body {
-                background: #202020;
+                background: $second-color;
                 color: $main-color;
                 height: 40%;
+                border-radius: 0 0 5px 5px;
                 .shop-content  {
                     margin-bottom: 10px;
                     align-items: center;
@@ -192,14 +193,26 @@
     }
 }
 
-@media screen and (max-width: 992px) {
-    .social-link {
-        display: none;
-    }
-    
+#arrow-up {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 998;
+    padding: 6px 10px;
+    border: 2px solid #000;
+    border-radius: 100px;
+}
+
+@media screen and (max-width: 1500px) {
     .secondTitle {
         transform: translateX(0);
         margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .social-link {
+        display: none;
     }
 
     .section-film,
@@ -214,7 +227,6 @@
         img {
             display: block;
             width: 80%;
-            height: inherit;
         }
         .shop-left {
             img {
