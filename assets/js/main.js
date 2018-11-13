@@ -16,7 +16,9 @@ let genderAffichage = (type, categ) => {
         $(`.featured-${categ}`).hide();
 
         if (type == 'all') {
-            $(`.featured-${categ}`).show();
+            for (let i=0;i<12;i++) {
+                $(`.featured-${categ}`).eq(i).show();
+            }
             clic++
         } else {
             $(`.${type}-${categ}`).show();
